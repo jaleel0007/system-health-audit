@@ -1,0 +1,67 @@
+{
+  "CollectedAt": "2025-09-16T17:58:59.2238333-05:00",
+  "Hostname": "DESKTOP-3N5N1CO",
+  "OS": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.26100",
+    "Build": "26100",
+    "Uptime": {
+      "Days": 4,
+      "Hours": 95
+    }
+  },
+  "CPU": {
+    "Model": "13th Gen Intel(R) Core(TM) i7-13700",
+    "Cores": 16.0,
+    "LogicalProcessors": 24.0,
+    "AvgLoadPct": 2.27
+  },
+  "Memory": {
+    "TotalMB": 16073.0,
+    "UsedMB": 11467.0,
+    "UsedPct": 71.34
+  },
+  "Disks": {
+    "DeviceID": "C:",
+    "FileSystem": "NTFS",
+    "SizeGB": 462.69,
+    "FreeGB": 402.95,
+    "UsedPct": 12.91
+  },
+  "Patching": {
+    "LastHotfixInstalledOn": "2025-08-22T00:00:00",
+    "RecentHotfixes": [
+      {
+        "HotFixID": "KB5056579",
+        "Description": "Update",
+        "InstalledOn": "2025-08-22T00:00:00"
+      },
+      {
+        "HotFixID": "KB5050575",
+        "Description": "Update",
+        "InstalledOn": "2025-08-22T00:00:00"
+      },
+      {
+        "HotFixID": "KB5059093",
+        "Description": "Update",
+        "InstalledOn": "2025-08-22T00:00:00"
+      },
+      {
+        "HotFixID": "KB5063878",
+        "Description": "Security Update",
+        "InstalledOn": "2025-08-22T00:00:00"
+      },
+      {
+        "HotFixID": "KB5065381",
+        "Description": "Security Update",
+        "InstalledOn": "2025-08-22T00:00:00"
+      }
+    ]
+  },
+  "Antivirus": {
+    "Product": "Unknown/3rd-party",
+    "RealTimeProtection": null,
+    "SignatureAgeHours": null,
+    "EngineVersion": null
+  }
+}

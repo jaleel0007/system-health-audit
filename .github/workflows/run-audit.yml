@@ -1,0 +1,30 @@
+name: Run System Health Audit (Windows)
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  audit-windows:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Ensure reports directory exists
+        run: New-Item -ItemType Directory -Path "$PWD/reports" -Force | Out-Null
+
+      - name: Run Windows audit script
+        run: pwsh -File "$PWD/scripts/audit_windows.ps1"
+
+      - name: Upload reports as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-system-health-reports
+          path: reports/**
+          if-no-files-found: error
+          retention-days: 7
