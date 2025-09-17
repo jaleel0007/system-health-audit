@@ -3,3 +3,4 @@
 Cross-platform system audit scripts (Windows/Linux) with JSON + Markdown reports.
 
 
+SSH test success from home laptop
